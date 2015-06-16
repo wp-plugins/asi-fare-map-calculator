@@ -114,7 +114,7 @@
             {
                 $google_map_api = 'https://maps.google.com/maps/api/js?sensor=true&libraries=places&language=en-AU';
                 wp_enqueue_script('google-places', $google_map_api);
-                wp_register_style('asi_style', plugins_url('cssfiles/asi_fare_style.css',__FILE__));
+                wp_register_style('asi_style', plugins_url('css/asi_fare_style.css',__FILE__));
                 wp_enqueue_style('asi_style');
                 wp_register_script('asi_script', plugins_url('js/asi_fare_script.js', __FILE__ ),array('jquery'));
                 wp_enqueue_script('asi_script'); 	
