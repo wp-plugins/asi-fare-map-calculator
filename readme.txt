@@ -9,7 +9,7 @@ License: GNU General Public License v3 or later
 Tested up to: 4.2.2
 Stable tag: trunk
 Tags: map calculator, fare map calculator, taxi fare calculator, taxi fare, calculator
-Fare map calculator is a little utility plugin to allow taxi companies to give an option to their customer to calculate taxi fare and see the route on google map.
+Fare map calculator is a little utility to allow taxi companies to give an option to their customers to calculate fare and see the route on google maps.
    
 == Description ==
 Adaptive Solutions Inc. has several years of expertise in developing auto dispatching taxi system with mobile and web interface.  The purpose of this plugin is to assist companies related to taxi business to allow it's customers to calculate the ride fare and be able to see the route on google map.  Please give us your feedback on any additions you would like to see here.  You can contact us at info1@adaptivesolutionsinc.com
