@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 //var taxi_type;
-var base_url=jQuery("#homeurlid").val();
+var base_url=window.location.origin;
 var stops_count = 0;
 var baby_count = 0;
 var markerBounds = new google.maps.LatLngBounds();
@@ -14,8 +14,8 @@ var directionsService;
 var map;
 var lats = '';
 var lngs = '';
-var taxi = base_url+"/asi-fare-map-calculator/img/passenger.png";
-var home = base_url+"/asi-fare-map-calculator/img/home.png";
+var taxi = base_url+"/wp-content/plugins/asi-fare-map-calculator/img/passenger.png";
+var home = base_url+"/wp-content/plugins/asi-fare-map-calculator/img/home.png";
 count_markers = 0;
 var waypoints = new Array();
 var first_time = true;
