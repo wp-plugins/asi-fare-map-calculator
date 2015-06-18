@@ -1,6 +1,4 @@
 <?php
-session_start();
-$_SESSION['asi-rand'] = isset($_SESSION['asi-rand']) ? $_SESSION['asi-rand'] : rand(100, 999);
 
 add_action('init', 'asi_map_register_shortcodes');
 function asi_map_register_shortcodes() {
