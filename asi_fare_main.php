@@ -1,7 +1,8 @@
 <?php
 add_action('init', 'asi_map_register_shortcodes');
 function asi_map_register_shortcodes() {
-    //register shortcode   
+    //register shortcode
+	echo '<input type="hidden" value="'.plugins_url().'" id="homeurlid" />';
     add_shortcode('asi-map', 'asi_map_shortcode');
 }
 function get_allfares()
@@ -21,14 +22,6 @@ function asi_map_shortcode($atts) {
 		"label_seat" 		=> __('Car Seats:') ,
 		"label_submit" 		=> __('Submit') ,
 	), $atts));
-    
-    $_SESSION['labels']=array(
-		"label_types" 		=> __('Taxi Type:') ,
-		"label_type1" 		=> __('Sedan') ,
-        "label_type2" 		=> __('Minivan/ SUV') ,
-        "label_stop" 		=> __('Add Additional Stops:') ,
-		"label_seat" 		=> __('Car Seats:') ,
-		"label_submit" 		=> __('Submit'));
          $allfare=get_allfares();
          $cartype=new asi_map_plugin_admin();
          $cartypes=$cartype->Get_allselected_car();
