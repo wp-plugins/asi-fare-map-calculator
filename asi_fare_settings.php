@@ -69,5 +69,4 @@ function asi_map_deletecar_process()
 add_action('wp_ajax_asi_map_deletecar','asi_map_deletecar_process');
 include 'asi_fare_main.php';
 include 'asi_fare_admin.php';
-echo'<input type="hidden" value="'.plugins_url().'" id="homeurlid" />';
 ?>
