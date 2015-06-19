@@ -2,7 +2,6 @@
 add_action('init', 'asi_map_register_shortcodes');
 function asi_map_register_shortcodes() {
     //register shortcode
-	echo '<input type="hidden" value="'.plugins_url().'" id="homeurlid" />';
     add_shortcode('asi-map', 'asi_map_shortcode');
 }
 function get_allfares()
