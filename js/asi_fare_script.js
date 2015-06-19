@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 //var taxi_type;
-var base_url=jQuery("#homeurlid").val();
+var base_url=window.location.origin;
 var stops_count = 0;
 var baby_count = 0;
 var markerBounds = new google.maps.LatLngBounds();
