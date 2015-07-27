@@ -35,6 +35,6 @@ After installation please add shortcode [asi-map] on your website page for displ
 = why am i getting wrong calculated fare? =
 1) Please type all the fare in one currency symbole.
 
-= I uploaded the icon, but it does not show on the google map.
+= I uploaded the icon, but it does not show on the google map? =
 1) Please check the extension of icon. you must upload .png format icon.
 
